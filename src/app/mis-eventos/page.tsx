@@ -8,8 +8,8 @@ import { useWallet } from "@solana/wallet-adapter-react";
 export default function MyEvents() {
   const { publicKey } = useWallet()
   if(!publicKey){
-    return redirect('/')
-  }
+    redirect('/')
+ }
 
   return (
     <div>

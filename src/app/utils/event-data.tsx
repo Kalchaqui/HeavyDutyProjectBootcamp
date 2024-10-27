@@ -20,5 +20,17 @@ export interface EventData {
       ticket_price: 0.05,
       token_price: 0.1
     },
+
+    {
+      title: "Donaciones para el Hospital de Niños",
+      ticket_price: 0.2,
+      token_price: 0.1
+    },
+
+    {
+      title: "HACKATHON SOLANA 2025",
+      ticket_price: 0.1,
+      token_price: 5
+    },
   ]
   

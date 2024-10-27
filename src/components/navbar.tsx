@@ -8,8 +8,10 @@ import { useWallet } from '@solana/wallet-adapter-react'
 export default function Navbar() {
   const { publicKey } = useWallet()
 
+
+
   return (
-    <header className="bg-indigo-300 p-4 flex justify-between items-center min-h-20 shadow-md">
+    <header className="bg-yellow-100 p-4 flex justify-between items-center min-h-20 shadow-md">
       <Link href="/" className="flex items-center gap-2">
         <Image
           src="/logo.png"

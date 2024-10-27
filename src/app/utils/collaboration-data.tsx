@@ -15,5 +15,11 @@ export interface CollaborationData {
       tokens_amount: 15,
       event_closed: false
     },
+
+    {
+      event_title: "#Hackathon #Solana por Kalcha",
+      tokens_amount: 10,
+      event_closed: true
+    },
   ]
   

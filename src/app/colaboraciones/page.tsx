@@ -8,7 +8,7 @@ import { useWallet } from "@solana/wallet-adapter-react";
 export default function Collaborations() {
   const { publicKey } = useWallet()
   if(!publicKey){
-    return redirect('/')
+     redirect('/')
   }
 
   return (
